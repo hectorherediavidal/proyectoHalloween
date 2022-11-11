@@ -11,7 +11,7 @@
 /* BODY */
 body {
   height: 100%vh;
-  max-width: 100%;
+  max-width: 900px;
   background: linear-gradient(180deg, #681e07 0%, #080200 100%);
   margin-left: 40px;
   margin-right: 40px;
