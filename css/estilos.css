@@ -264,6 +264,7 @@ textarea::placeholder {
   padding: 10px 10px;
   border: none;
   border-radius: 5px;
+  background-color: #cdcaca;
 }
 
 /* ICONOS DE REDES SOCIALES */
