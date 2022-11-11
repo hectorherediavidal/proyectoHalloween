@@ -25,8 +25,9 @@ header {
 }
 
 /* ESTILOS DE H1 */
-h1 {
+.titulo {
   font-weight: 400;
+  font-size: 47px;
   font-family: "SpookyRegular";
   text-align: center;
   color: #cdcaca;
@@ -242,12 +243,12 @@ h1 {
 }
 
 input::placeholder {
-  padding: 20px 20px;
+  padding: 20px 2px;
   border: none;
 }
 
 textarea::placeholder {
-  padding: 8px 13px;
+  padding: 8px 2px;
   border: none;
 }
 
@@ -267,7 +268,7 @@ textarea::placeholder {
 
 /* ICONOS DE REDES SOCIALES */
 
-.siguenos{
+.siguenos {
   padding-top: 40px;
   font-weight: 400;
   font-size: 24px;
@@ -276,11 +277,11 @@ textarea::placeholder {
   text-align: center;
 }
 
-
 .redes {
   width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
   padding-top: 40px;
+  padding-bottom: 20px;
 }
