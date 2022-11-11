@@ -4,35 +4,34 @@
 @font-face {
   font-family: "SpookyRegular";
   src: url("../fonts/Spooky\ Monster.woff2") format("woff2"),
-       url("../fonts/Spooky\ Monster.woff") format("woff"),
-       url("../fonts/Spooky-Monster.ttf") format("truetype");
-
+    url("../fonts/Spooky\ Monster.woff") format("woff"),
+    url("../fonts/Spooky-Monster.ttf") format("truetype");
 }
 
+/* BODY */
 body {
   height: 100%vh;
   max-width: 100%;
-  background: linear-gradient(180deg, #b9340b 0%, #120501 100%);
+  background: linear-gradient(180deg, #681e07 0%, #080200 100%);
   margin-left: 40px;
   margin-right: 40px;
 }
 
-
-
+/* HEADER */
 header {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* ESTILOS DE H1 */
 h1 {
   font-weight: 400;
   font-family: "SpookyRegular";
   text-align: center;
   color: #cdcaca;
-  
 }
-
+/* PORTADA */
 .portada {
   display: flex;
   justify-content: center;
@@ -42,186 +41,38 @@ h1 {
   width: 100%;
 }
 
+/* SUBTITULO Y SU TEXTO */
 
-.subtitulo{
+.subtitulo {
   font-weight: 400;
   font-family: "SpookyRegular";
   color: #cdcaca;
   text-align: center;
   padding-top: 10px;
-  
 }
 
-
-.textoSubtitulo{
-  color:#cdcaca;
+.textoSubtitulo {
+  color: #cdcaca;
   text-align: justify;
   padding-bottom: 10px;
   width: 100%;
 }
 
-.seguir{
-  position:static;
+/* BOTON DE SEGUIR QUE LLEVA A LAS IDEAS DE LOS DISFRAZES */
+.seguir {
+  position: static;
   width: 93px;
   max-width: 100;
   height: 55px;
-  background-color: #ae2c05fc;
+  background-color: #952705fc;
   color: #cdcaca;
   border-style: none;
   margin-left: 236px;
-  
-  
 }
 
+/* IDEAS PARA LOS DISFRAZES */
 
-.ideas{
-  font-weight: 400;
-  font-size: 24px;
-  font-family: "SpookyRegular";
-  color: #cdcaca;
-  text-align: center;
-  padding-top: 30px;
-}
-
-
-/* PRIMERA FOTO DE LOS 3 FIGCAPTION */
-.primeraFoto{
-  padding-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.fotoCalabaza{
-  width: 100%;
-}
-
-.textoCalabaza{
-  color:#cdcaca;
-  text-align: justify;
-  padding-top: 15px;
-}
-
-
-
-.segundaFoto{
-  padding-top: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.fotoCalabaza2{
-  width: 100%;
-}
-
-.textoCalabaza2{
-  color:#cdcaca;
-  text-align: justify;
-  padding-top: 15px;
-}
-
-
-/* TERCERA FOTO DE LOS 3 FIGCAPTION */
-
-.terceraFoto{
-  padding-top: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.fotoCalabaza3{
-  width: 100%;
-}
-
-.textoCalabaza3{
-  color:#cdcaca;
-  text-align: justify;
-  padding-top: 15px;
-}
-
-
-/* OPNINIONES */
-
-.añoPasado{
-  font-weight: 400;
-  font-size: 20px;
-  font-family: "SpookyRegular";
-  color: #cdcaca;
-  text-align: center;
-  padding-top: 30px;
-}
-
-
-
-/* OPINION DE RAUL */
-
-.fotoChico{
-  padding-top: 40px;
-  
-}
-
-
-.fotoOpinion1{
-  width: 100%;
-  border-radius: 50%;
-}
-
-.textoOpinion1{
-  color:#cdcaca;
-  text-align: justify;
-  padding-top: 15px;
-}
-
-
-.raul{
-  font-weight: 400;
-  font-size: 20px;
-  font-family: "SpookyRegular";
-  color: #cdcaca;
-  text-align: center;
-  
-}
-
-/* OPINION DE LAURA */
-
-.fotoChica{
-  padding-top: 40px;
-  
-}
-
-
-.fotoOpinion2{
-  width: 100%;
-  border-radius: 50%;
-}
-
-.textoOpinion2{
-  color:#cdcaca;
-  text-align: justify;
-  padding-top: 15px;
-  
-}
-
-
-.laura{
-  font-weight: 400;
-  font-size: 20px;
-  font-family: "SpookyRegular";
-  color: #cdcaca;
-  text-align: center;
-  
-}
-
-
-
-/* FORMULARIO */
-
-.teApuntas{
+#ideas {
   font-weight: 400;
   font-size: 25px;
   font-family: "SpookyRegular";
@@ -230,57 +81,206 @@ h1 {
   padding-top: 30px;
 }
 
-
-.contacto{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-gap: 17px;
-
+/* PRIMERA FOTO DE LOS 3 FIGCAPTION */
+.primeraFoto {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nombreForm{
+.fotoCalabaza {
+  width: 100%;
+}
+
+.textoCalabaza {
+  color: #cdcaca;
+  text-align: justify;
+  padding-top: 15px;
+}
+
+/* SEGUNDA FOTO DE LOS FIGCAPTION */
+
+.segundaFoto {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotoCalabaza2 {
+  width: 100%;
+}
+
+.textoCalabaza2 {
+  color: #cdcaca;
+  text-align: justify;
+  padding-top: 15px;
+}
+
+/* TERCERA FOTO DE LOS 3 FIGCAPTION */
+
+.terceraFoto {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotoCalabaza3 {
+  width: 100%;
+}
+
+.textoCalabaza3 {
+  color: #cdcaca;
+  text-align: justify;
+  padding-top: 15px;
+}
+
+/* OPNINIONES */
+
+.añoPasado {
+  font-weight: 400;
+  font-size: 21px;
+  font-family: "SpookyRegular";
+  color: #cdcaca;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* OPINION DE RAUL */
+
+.fotoChico {
+  padding-top: 40px;
+}
+
+.fotoOpinion1 {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.textoOpinion1 {
+  color: #cdcaca;
+  text-align: justify;
+  padding-top: 15px;
+}
+
+.raul {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "SpookyRegular";
+  color: #cdcaca;
+  text-align: center;
+}
+
+/* OPINION DE LAURA */
+
+.fotoChica {
+  padding-top: 40px;
+}
+
+.fotoOpinion2 {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.textoOpinion2 {
+  color: #cdcaca;
+  text-align: justify;
+  padding-top: 15px;
+}
+
+.laura {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "SpookyRegular";
+  color: #cdcaca;
+  text-align: center;
+}
+
+/* FORMULARIO */
+
+.teApuntas {
+  font-weight: 400;
+  font-size: 25px;
+  font-family: "SpookyRegular";
+  color: #cdcaca;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.nombreForm {
   width: 250px;
   height: 30px;
+  border-radius: 5px;
 }
 
-.apellidoForm{
+.apellidoForm {
   width: 250px;
   height: 30px;
+  border-radius: 5px;
 }
 
-.emailForm{
+.emailForm {
   width: 250px;
   height: 30px;
+  border-radius: 5px;
 }
 
-.telfForm{
+.telfForm {
   width: 250px;
   height: 30px;
+  border-radius: 5px;
 }
-
 
 input::placeholder {
   padding: 20px 20px;
   border: none;
 }
 
-textarea::placeholder{
-  padding: 20px 13px;
+textarea::placeholder {
+  padding: 8px 13px;
   border: none;
 }
 
-.añadir{
-  resize: none; 
+.añadir {
+  resize: none;
   height: 100px;
   left: 50px;
   width: 250px;
+  border-radius: 5px;
 }
 
-
-.enviar{
+.enviar {
   padding: 10px 10px;
   border: none;
+  border-radius: 5px;
 }
 
+/* ICONOS DE REDES SOCIALES */
+
+.siguenos{
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "SpookyRegular";
+  color: #cdcaca;
+  text-align: center;
+}
+
+
+.redes {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 40px;
+}

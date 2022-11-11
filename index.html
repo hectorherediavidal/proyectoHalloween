@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="css\estilos.css" />
   </head>
   <body>
+    <!-- HEADER -->
     <header>
+      <!-- TITULO -->
       <h1>Horror Night</h1>
     </header>
+    <!-- PORTADA -->
     <section>
       <picture class="portada">
         <source srcset="imagenes/smartphone/fotoPortada@2x.webp" />
@@ -20,16 +23,20 @@
       </picture>
     </section>
     <main>
+      <!-- SUBTITULO PREPARA TU MEJOR DISFRAZ -->
       <h2 class="subtitulo">¡Prepara tu mejor disfraz!</h2>
       <p class="textoSubtitulo">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed curabitur
         est amet, interdum blandit vitae semper at enim. Vitae cursus curabitur
-        sed amet ut. Non, cras arcu dolor ullamcorper.
+        sed amet ut. non, cras arcu dolor.
       </p>
-      <form action="primeraFoto">
+
+      <!-- IDEAS PARA EL DISFRAZ -->
+      <form action="#ideas">
         <input type="submit" class="seguir" value="Seguir &#8594"></input>
       </form>
-      <h3 class="ideas">¡Ideas para tu disfraz!</h3>
+      <h3 id="ideas">¡Ideas para tu disfraz!</h3>
+      <!-- PRIMERA IMAGEN -->
       <section class="primeraFoto">
         <figure>
           <img
@@ -39,11 +46,10 @@
           />
           <figcaption class="textoCalabaza">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            
           </figcaption>
         </figure>
       </section>
-
+      <!-- SEGUNDA IMAGEN -->
       <section class="segundaFoto">
         <figure>
           <img
@@ -52,11 +58,12 @@
             class="fotoCalabaza2"
           />
           <figcaption class="textoCalabaza2">
-            Integer ante nisl, consequat ut arcu ut, venenatis fringilla erat. Integer a diam nisl.
-            
+            Integer ante nisl, consequat ut arcu ut, venenatis fringilla erat.
+            Integer a diam nisl.
           </figcaption>
         </figure>
       </section>
+      <!-- TERCERA IMAGEN -->
       <section class="terceraFoto">
         <figure>
           <img
@@ -65,51 +72,107 @@
             class="fotoCalabaza3"
           />
           <figcaption class="textoCalabaza3">
-            Proin et odio elit. Aliquam vel velit in elit porttitor consequat non vel nibh.
-            
+            Proin et odio elit. Aliquam vel velit in elit porttitor consequat
+            non vel nibh.
           </figcaption>
         </figure>
       </section>
 
-      <h3 class="añoPasado">El año pasado tambien tuvimos fiesta <br>
-      Quieres ver unas opiniones?</h3>
-
-
+      <!-- APARTADO AÑO PASADO -->
+      <h3 class="añoPasado">
+        El año pasado tambien tuvimos fiesta! <br />
+        Quieres ver unas opiniones?
+      </h3>
+      <!-- OPINIONES -->
+      <!-- OPNINION CHICO -->
       <section class="fotoChico">
         <img
-            src="./imagenes/smartphone/fotoChico@2x.webp"
-            alt="fotoOpinion1"
-            class="fotoOpinion1"
-            />
-            <figcaption class="textoOpinion1"><h3 class="raul">Raul</h3>
-              Fusce magna lorem, lacinia sed felis a, iaculis fringilla nulla. Pellentesque nibh elit, ultricies vitae ante vitae.
-             </figcaption> 
-
+          src="./imagenes/smartphone/fotoChico@2x.webp"
+          alt="fotoOpinion1"
+          class="fotoOpinion1"
+        />
+        <figcaption class="textoOpinion1">
+          <h3 class="raul">Raul</h3>
+          Fusce magna lorem, lacinia sed felis a, iaculis fringilla nulla.
+          Pellentesque nibh elit, ultricies vitae ante vitae.
+        </figcaption>
       </section>
-
+      <!-- OPINION CHICA -->
       <section class="fotoChica">
         <img
-            src="./imagenes/smartphone/fotoChica@2x.webp"
-            alt="fotoOpinion2"
-            class="fotoOpinion2"
-            />
-            <figcaption class="textoOpinion2"><h3 class="laura">Laura</h3>
-              Duis non ipsum accumsan, sodales enim at, malesuada quam. Pellentesque auctor ante vel libero congue pretium. <br>
-             </figcaption> 
-
+          src="./imagenes/smartphone/fotoChica@2x.webp"
+          alt="fotoOpinion2"
+          class="fotoOpinion2"
+        />
+        <figcaption class="textoOpinion2">
+          <h3 class="laura">Laura</h3>
+          Duis non ipsum accumsan, sodales enim at, malesuada quam. Pellentesque
+          auctor ante vel libero congue pretium. <br />
+        </figcaption>
       </section>
-
-
+      <!-- APARTADO TE APUNTAS -->
       <h3 class="teApuntas">TE APUNTAS?</h3>
+      <!-- FORMULARIO DE CONTACTO -->
       <form action="" class="contacto">
-
-        <input type="text" name="nombre" placeholder="Escribe tu nombre..." class="nombreForm"/>
-        <input type="text" name="apellidos" placeholder="Escribe tus apellidos..."class="apellidoForm">
-        <input type="text" name="email" placeholder="Escribe tu email..."class="emailForm">
-        <input type="text" name="telefono" placeholder="Escribe tu telefono..."class="telfForm">
-        <textarea placeholder="¿Quieres añadir algo más?" class="añadir"></textarea>
-        <input type="submit" value="Enviar" class="enviar">
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Escribe tu nombre..."
+          class="nombreForm"
+          required
+        />
+        <input
+          type="text"
+          name="apellidos"
+          placeholder="Escribe tus apellidos..."
+          class="apellidoForm"
+          required
+        />
+        <input
+          type="text"
+          name="email"
+          placeholder="Escribe tu email..."
+          class="emailForm"
+          required
+        />
+        <input
+          type="text"
+          name="telefono"
+          placeholder="Escribe tu telefono..."
+          class="telfForm"
+        />
+        <textarea
+          placeholder="¿Quieres añadir algo más?"
+          class="añadir"
+        ></textarea>
+        <input type="submit" value="Enviar" class="enviar" />
       </form>
     </main>
+    <!-- ICONOS DE REDES SOCIALES -->
+    <footer>
+      <h3 class="siguenos">Siguenos en nuestras redes!</h3>
+      <section class="redes">
+        <img
+          src="./imagenes/smartphone/facebook.svg"
+          alt="facebook"
+          class="facebook"
+        />
+        <img
+          src="./imagenes/smartphone/instagram.svg"
+          alt="instagram"
+          class="instagram"
+        />
+        <img
+          src="./imagenes/smartphone/twitter.svg"
+          alt="twitter"
+          class="twitter"
+        />
+        <img
+          src="./imagenes/smartphone/pinterest.svg"
+          alt="pinterest"
+          class="pinterest"
+        />
+      </section>
+    </footer>
   </body>
 </html>
