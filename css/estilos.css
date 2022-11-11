@@ -216,3 +216,71 @@ h1 {
   text-align: center;
   
 }
+
+
+
+/* FORMULARIO */
+
+.teApuntas{
+  font-weight: 400;
+  font-size: 25px;
+  font-family: "SpookyRegular";
+  color: #cdcaca;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+.contacto{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 17px;
+
+}
+
+.nombreForm{
+  width: 250px;
+  height: 30px;
+}
+
+.apellidoForm{
+  width: 250px;
+  height: 30px;
+}
+
+.emailForm{
+  width: 250px;
+  height: 30px;
+}
+
+.telfForm{
+  width: 250px;
+  height: 30px;
+}
+
+
+input::placeholder {
+  padding: 20px 20px;
+  border: none;
+}
+
+textarea::placeholder{
+  padding: 20px 13px;
+  border: none;
+}
+
+.añadir{
+  resize: none; 
+  height: 100px;
+  left: 50px;
+  width: 250px;
+}
+
+
+.enviar{
+  padding: 10px 10px;
+  border: none;
+}
+
